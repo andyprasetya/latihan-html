@@ -32,12 +32,5 @@ export default [
       }),
       production && terser()
     ]
-  },
-  {
-    input: 'src/workers/worker.js',
-    output: {
-      file: 'public/worker.js',
-      format: 'cjs'
-    }
   }
 ];
