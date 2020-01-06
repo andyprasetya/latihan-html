@@ -1,5 +1,5 @@
 {
-  "name": "webmap-app-skeleton",
+  "name": "latihan-html",
   "devDependencies": {
     "autoprefixer": "latest",
     "node-sass": "latest",
@@ -9,27 +9,10 @@
     "rollup-plugin-node-resolve": "^5.1.0",
     "rollup-plugin-postcss": "latest",
     "rollup-plugin-terser": "^5.0.0",
-    "serve": "^11.0.2"
+    "serve": "latest"
   },
   "dependencies": {
-    "crypto-js": "latest",
-    "date-fns": "latest",
-    "file-saverjs": "latest",
-    "html2pdf.js": "latest",
-    "leaflet": "latest",
-    "leaflet-draw": "latest",
-    "leaflet-groupedlayercontrol": "latest",
-    "leaflet.control.layers.tree": "latest",
-    "leaflet.markercluster": "latest",
-    "numeral": "latest",
-    "pdfobject": "latest",
-    "simple-datatables": "latest",
-    "tableexport": "latest",
-    "terraformer": "latest",
-    "terraformer-wkt-parser": "latest",
-    "vega": "^5.8.0",
-    "vega-embed": "^6.0.0",
-    "vega-lite": "^4.0.0-beta.11"
+    "date-fns": "latest"
   },
   "scripts": {
     "build": "rollup -c",
