@@ -4,7 +4,7 @@ Latihan HTML untuk Prakerin SMK TKJ/RPL
 ### Petunjuk Inisiasi
 1. Install [Git](https://git-scm.com/).
 2. Install [NodeJS](https://nodejs.org/en/download/).
-3. Aktifkan Node.js command prompt, dan arahkan working directory ke sebuah direktori kosong (misal: D:\prakerin):
+3. Aktifkan Node.js _command prompt_, dan arahkan _working directory_ ke sebuah direktori kosong (misal: `D:\prakerin`):
 ```
 C:\Users\USER>d:
 D:\>cd prakerin
