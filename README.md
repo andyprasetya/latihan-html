@@ -31,7 +31,7 @@ D:\prakerin\latihan-html-bulma>npm install bulma --save
 D:\prakerin\latihan-html-bulma>code .
 ```
 7. Import `bulma.sass` dari `node_modules/bulma` pada file `src/main.js`:
-```
+```javascript
 import '../node_modules/bulma/bulma.sass';
 ...
 ```
