@@ -11,23 +11,23 @@ D:\>cd prakerin
 ```
 4. Clone repositori ini. Ada 2 cara, yaitu dengan menggunakan perintah `git clone ...`:
 Jika Anda memilih cara ini, maka buat sebuah direktori baru (misal: `D:\prakerin\latihan-html-bulma`) sebagai langkah awal:
-```
+```powershell
 D:\prakerin>mkdir latihan-html-bulma
 D:\prakerin>cd latihan-html-bulma
 D:\prakerin\latihan-html-bulma>git clone https://github.com/andyprasetya/latihan-html.git .
 ```
 atau dengan menggunakan perintah `npx degit ...`:
-```
+```powershell
 D:\prakerin>npx degit andyprasetya/latihan-html latihan-html-bulma
 D:\prakerin>cd latihan-html-bulma
 ```
 5. Install _dependencies_:
-```
+```powershell
 D:\prakerin\latihan-html-bulma>npm install
 D:\prakerin\latihan-html-bulma>npm install bulma --save
 ```
 6. Aktifkan VisualStudio Code:
-```
+```powershell
 D:\prakerin\latihan-html-bulma>code .
 ```
 7. Import `bulma.sass` dari `node_modules/bulma` pada file `src/main.js`:
@@ -36,7 +36,7 @@ import '../node_modules/bulma/bulma.sass';
 ...
 ```
 8. Simpan perubahan dan jalankan perintah:
-```
+```powershell
 D:\prakerin\latihan-html-bulma>npm run dev
 ```
 Selanjutnya, buka `http://localhost:5000` pada browser untuk memulai latihan HTML + Bulma CSS.
